@@ -1,6 +1,3 @@
-# Juvenal Nava
-# Programming Assignment 2
-
 from Employee import Employee
 
 class CommissionWorker(Employee):
