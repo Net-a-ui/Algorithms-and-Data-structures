@@ -1,6 +1,3 @@
-# Juvenal Nava
-# Programming Assignment 2
-
 '''
 Employee base class
 '''
