@@ -1,6 +1,3 @@
-# Juvenal Nava
-# Programming Assignment 2B
-
 from CommissionWorker import CommissionWorker
 from PieceWorker import PieceWorker
 
