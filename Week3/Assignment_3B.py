@@ -1,6 +1,3 @@
-# Juvenal Nava
-# Programming Assignment 3B
-
 '''
 This program accepts two positive integers
 and uses recursion to find the Greatest Common Divisor.
@@ -8,7 +5,7 @@ and uses recursion to find the Greatest Common Divisor.
 
 def gcd(number1, number2):
 
-    # base case
+    #base case
     if number2 == 0:
         return number1
 

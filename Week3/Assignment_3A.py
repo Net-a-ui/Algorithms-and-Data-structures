@@ -1,6 +1,3 @@
-# Juvenal Nava
-# Programming Assignment 3A
-
 '''
 This program accepts a positive integer
 and uses recursion to return its hexadecimal value.

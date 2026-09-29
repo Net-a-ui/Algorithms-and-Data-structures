@@ -1,5 +1,3 @@
-# Juvenal Nava       8/27/2026
-
 '''
 This program will read a data file sales record (custsale.txt) and load a list of
 records (in memory) for processing...
