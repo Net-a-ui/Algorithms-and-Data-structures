@@ -1,4 +1,9 @@
-  File "<string>", line 1
-    from pathlib import Path; print(Path(upload/Programming
-                                        ^
-SyntaxError: '(' was never closed
+I used both Bubble Sort and Merge Sort for the two datasets required for this assignment.
+
+Bubble Sort compares records next to each other and switches them when they are in the wrong order. Bubble Sort takes longer when there are more records because it has to make many comparisons.
+
+Merge Sort works by splitting the list into smaller parts, sorting those parts, and then putting them back together in order. This makes Merge Sort faster when working with a larger amount of data.
+
+For the primary keys, DR_NO is used for the crime dataset and VIN(1-10) is used for the electric vehicle dataset. I used the same datasets and the same keys for both sorting programs so I could compare their execution times.
+
+The results showed that the size of the dataset affects how long each sorting algorithm takes. Bubble Sort took longer as the number of records increased, while Merge Sort handled the larger datasets more efficiently.
