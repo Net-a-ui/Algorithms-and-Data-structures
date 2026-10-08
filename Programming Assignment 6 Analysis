@@ -1,0 +1,7 @@
+used both Bubble sort and merge sort for two datasets require for this assignment.
+What the bubble sort is doing is comparing the records next to each other and 
+switches them when they  are in the wrong order. With the bubble sort it takes longer when there are more records because it has to make many comparisons.
+While merge sorts does it splitting the list into smaller parts, sorting those parts and then putting them back together in order.
+As this should be faster as when working with large large amount data.
+With the primary keys DR_NO is used for crime dataset and VIN(1-10) used for the electic vehicle data set. Also to mention used same datasets and keys for both sorting programs so I could compare their execution times.
+Lastly the showed showed me the size of the dataset affects the time each sorting algort=ithm takes. Bubble sort did take longer as number of records increased, while merge sort handled the larger datasets more efficiently
