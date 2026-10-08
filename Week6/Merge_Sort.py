@@ -11,7 +11,7 @@ def load_data(filename, limit):
             line = line.rstrip("\n")
 
             if line:
-                records.append(tuple(line.split("\t")))
+                records.append(tuple(line.split("|")))
 
             if limit is not None and len(records) >= limit:
                 break
