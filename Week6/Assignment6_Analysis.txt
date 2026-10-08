@@ -1,3 +1,0 @@
-Programming Assignment 6 Analysis
-
-Bubble Sort compares neighboring tuples and swaps them when their primary keys are in the wrong order. It is simple to understand, but it gets slower as the number of records increases because it makes many comparisons. Merge Sort divides the list into smaller lists, sorts them, and then merges them back together. In my testing, Merge Sort finished much faster than Bubble Sort on the same sample. Both programs use an elapsed timer around the sorting function so the sorting times can be compared. For the Crime dataset, the primary key is DR_NO. For the Electric Vehicle dataset, the primary key is VIN(1-10).
