@@ -1,9 +1,1 @@
-I used both Bubble Sort and Merge Sort for the two datasets required for this assignment.
-
-Bubble Sort compares records next to each other and switches them when they are in the wrong order. Bubble Sort takes longer when there are more records because it has to make many comparisons.
-
-Merge Sort works by splitting the list into smaller parts, sorting those parts, and then putting them back together in order. This makes Merge Sort faster when working with a larger amount of data.
-
-For the primary keys, DR_NO is used for the crime dataset and VIN(1-10) is used for the electric vehicle dataset. I used the same datasets and the same keys for both sorting programs so I could compare their execution times.
-
-The results showed that the size of the dataset affects how long each sorting algorithm takes. Bubble Sort took longer as the number of records increased, while Merge Sort handled the larger datasets more efficiently.
+I wrote two Python applications using Bubble Sort and Merge Sort. Both programs load a tab-separated data file into a list of tuples, let the user choose between 1 and 50 records, and sort the loaded records in ascending order. The crime data uses DR_NO as a numeric key, while the electric vehicle data uses VIN(1-10) as a text key. Bubble Sort compares neighboring records and swaps them when their keys are out of order, stopping early if a pass makes no swaps. Merge Sort divides the list into smaller lists and combines them in sorted order. Both programs start a timer immediately before calling the sorting function, stop it after the function returns, and print the elapsed time along with a table of all loaded records using selected fields. Tests with 1, 5, and 50 records from each sample file produced correct results in both programs. The 50-record tests measured about 0.0004 to 0.0005 seconds for Bubble Sort and about 0.0001 seconds for Merge Sort, although these small timings vary between runs. The current programs limit loading to 50 records, so these results describe sample testing only. Complete-dataset performance has not been verified.
