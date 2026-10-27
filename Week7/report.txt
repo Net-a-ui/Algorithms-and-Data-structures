@@ -1,0 +1,62 @@
+10262	Venezuela	01/17/03	Davis		Federal-Shipping
+10265	Venezuela	05/08/03	Kaplan		United-Package
+10268	Sweden	        10/18/03	Denton		United-Package
+10271	Germany		11/06/03	Kaplan	
+10274	Venezuela	02/08/03	Buchanan	United-Package	 
+10277	Sweden   	04/25/03	Kaplan		Federal-Shipping
+10280	Venezuela	02/05/03	Davis		Speedy-Express
+10283	Germany		04/18/03	Kaplan	
+10286	Venezuela	05/03/03	Kaplan		United-Package
+10289	Venezuela	02/01/03	Kaplan		Speedy-Express
+10292	Sweden 		12/08/03	Davis	
+10295	Venezuela	04/17/03	Kaplan		Federal-Shipping
+10298	Venezuela	05/08/03	Kaplan		United-Package
+10301	Germany		11/29/03	Buchanan	Federal-Shipping
+10304	Venezuela	02/08/03	Buchanan	United-Package	 
+10307	Venezuela	06/21/03	Kaplan		United-Package
+10310	UK	        02/12/03	Denton		Speedy-Express
+10313	Venezuela	05/21/03	Davis		United-Package
+10316	Germany		04/18/03	Kaplan	
+10319	Germany		12/23/03	Davis	
+10322	Sweden	        05/27/03	Kaplan		United-Package
+10325	UK	        03/06/03	Buchanan	Speedy-Express	 
+10328	Germany		09/20/03	Davis	
+10331	Venezuela	04/17/03	Kaplan		Federal-Shipping
+10334	Germany		02/28/03	Davis	
+10337	UK	        03/06/03	Buchanan	Speedy-Express	 
+10340	UK	        01/31/03	Davis		Federal-Shipping
+10343	Venezuela	08/30/03	Kaplan		Federal-Shipping
+10346	Germany		09/07/03	Kaplan	
+10349	Venezuela	04/26/03	Davis		United-Package
+10352	Germany		09/07/03	Kaplan	
+10355	Germany		11/09/03	Davis	
+10358	Brazil	        08/02/03	Davis		Speedy-Express
+10361	Brazil	        06/03/03	Kaplan		United-Package
+10364	Germany		02/28/03	Davis	
+10367	UK	        03/07/03	Kaplan		United-Package
+10370	Germany		05/16/03	Denton	
+10373	Brazil	        09/27/03	Kaplan		Speedy-Express
+10376	Brazil	        03/15/03	Davis		Speedy-Express
+10379	Germany		05/17/03	Davis	
+10382	Germany		11/09/03	Davis	
+10385	UK	        01/25/03	Davis		Federal-Shipping
+10388	Brazil	        01/18/03	Kaplan		Speedy-Express
+10391	Germany		06/20/03	Davis	
+10394	Brazil	        11/17/03	Davis		Federal-Shipping
+10397	Germany		11/24/03	Davis	
+10400	UK	        03/07/03	Kaplan		United-Package
+10403	Brazil	        04/18/03	Kaplan		Speedy-Express
+10406	Germany		01/25/03	Denton	
+10409	Sweden	        10/03/03	Buchanan	Speedy-Express	 
+10412	Brazil	        04/02/03	Buchanan	Federal-Shipping	Meat/Poultry
+10415	Germany		08/29/03	Kaplan	
+10418	UK	        11/01/03	Kaplan		United-Package
+10421	Germany		02/14/03	Davis	
+10424	Germany		06/12/03	Kaplan	
+10427	Brazil	        09/29/03	Buchanan	Federal-Shipping	Meat/Poultry
+10430	Sweden	        04/16/03	Kaplan		United-Package
+10433	Brazil	        02/14/03  	Davis		Federal-Shipping
+10436	Brazil	        09/27/03 	Kaplan		Speedy-Express
+10439	Brazil	        06/03/03	Kaplan		United-Package
+10442	Brazil	        11/17/03	Davis		Federal-Shipping
+10445	Sweden          03/31/03	Kaplan		Speedy-Express	 
