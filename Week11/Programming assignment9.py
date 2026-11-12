@@ -43,8 +43,8 @@ def find_record(table, key):
     #search for the record with the matching key in the corresponding bucket
     for record in table[index]:
         if record[0] == key:
-            return record
-        
+            return index, record
+
     return index, None
 #Function to add a new record to the hash table
 def add_record(table):
@@ -113,10 +113,10 @@ def update_record(table, index, record):
         print("J. Model Year")
         print("K. Make")
         print("L. Model")
-        print("M. Return to record menu")
+        print("M. Return to main menu")
 
         choice = input("Select an option: ").strip().upper()
-        
+
         if choice == "M":
             return
         #Map the user's choice to the corresponding field index and name
@@ -133,14 +133,14 @@ def update_record(table, index, record):
         if choice not in field_map:
             print("Invalid selection.")
             continue
-        
+
         field_index = field_map[choice]
         new_value = input("Enter new " + field_names[field_index] + ": ").strip()
-        
+
         updated = list(record)
         updated[field_index] = new_value
         updated = tuple(updated)
-        
+
         print("\nUpdated record:")
         display_record(updated)
         #Display the updated record and ask for confirmation before saving
@@ -152,9 +152,9 @@ def update_record(table, index, record):
             print("Record updated successfully.")
         else:
             print("Update canceled.")
-        
+
         return
-        
+
 #Function to display the record menu for a specific record
 def record_menu(table, index, record):
     while True:
@@ -162,9 +162,9 @@ def record_menu(table, index, record):
         print("D. Delete Record")
         print("E. Update Record")
         print("F. Return to main menu")
-        
+
         choice = input("Option: ").strip().upper()
-        
+
         if choice == "D":
             delete_record(table, index, record)
             return
@@ -175,11 +175,11 @@ def record_menu(table, index, record):
             return
         else:
             print("Invalid selection.")
-        
+
         #Submenu for record operations
 def main():
     filename = "electric_car.txt"
-        
+
     try:
         table = load_records(filename)
     except FileNotFoundError:
@@ -188,30 +188,30 @@ def main():
         return
     #Calculate the total number of records in the hash table
     total_records = sum(len(bucket) for bucket in table)
-        
-        print("Hash table loaded.")
-        print("Records loaded:", total_records)
-        print("Table size:", TABLE_SIZE)
-        #Main menu loop begins here
-        while True:
-            print("\n-------- Main Menu --------")
-            print("A. Add a New Record")
-            print("B. Find a Record")
-            print("C. Quit")
-        
-            choice = input("Option: ").strip().upper()
-        
-            if choice == "A":
-                add_record(table)
-            elif choice == "B":
-                find_menu(table)
-            elif choice == "C":
-                print("Program ended.")
-                break
-            else:
-                print("Invalid selection.")
-        
-        
-    if __name__ == "__main__":
-        main()
-        
+
+    print("Hash table loaded.")
+    print("Records loaded:", total_records)
+    print("Table size:", TABLE_SIZE)
+    #Main menu loop begins here
+    while True:
+        print("\n-------- Main Menu --------")
+        print("A. Add a New Record")
+        print("B. Find a Record")
+        print("C. Quit")
+
+        choice = input("Option: ").strip().upper()
+
+        if choice == "A":
+            add_record(table)
+        elif choice == "B":
+            find_menu(table)
+        elif choice == "C":
+            print("Program ended.")
+            break
+        else:
+            print("Invalid selection.")
+
+
+if __name__ == "__main__":
+    main()
+
